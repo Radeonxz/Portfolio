@@ -2,12 +2,71 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>SomeWeb</title>
+    <title>Projects</title>
+    <link rel="stylesheet" href="/resources/assets/css/main.css">
+    <link rel="icon" href="/resources/assets/x_favicon.png">
   </head>
   <body>
-    {{> header}}
-    <p>Projects page text would go here</p>
+    <div class="main">
+      <div class="menu">
+        <a href="#" class="brand"><img src="/resources/assets/banner.png"></a>
+        <div class="nav">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a class="active" href="/projects">Projects</a></li>
+          </ul>
+        </div>
+      </div>
 
-    {{> footer}}
+      <section>
+      <span class="projects">
+        <span class="left">
+          <img src="/resources/assets/Laptop.png" width="70%"  class="l_laptop"/>
+          <span class="l_box">
+              <span class="l_blackbox"></span>
+              <span class="l_imagebox"><img src="/resources/assets/jidps.png" width="100%" height="100%"/></span>
+          </span>
+          <span class="content">
+              <span class="l_img"><img src="/resources/assets/jidps.png" width="100%"/></span>
+              <span class="l_msg"><p>Nov 2015 - Jun 2016<br><br>I participated in the project JIDPS of Concordia University CIISE Lab. The objective of the project is to migrate a system from Django to Drupal.<br>My responsbilities are: <br>Design and implement the front-end UI layouts;<br>Implement site workflow from back-end.<br><br><a href="https://jidps.rndsphere.com" target="_blank" id="redir_link">Click to visit</a></p></span>
+          </span>
+
+          <span class="l_btn">EXPLORE MORE</span>
+        </span>
+
+        <span class="middle">
+          <img src="/resources/assets/Laptop.png" width="52.5%" class="m_laptop"/>
+          <span class="m_box">
+              <span class="m_blackbox"></span>
+              <span class="m_imagebox"><img src="/resources/assets/hitalent.png" width="100%" height="100%"/></span>
+          </span>
+          <span class="content">
+              <span class="m_img"><img src="/resources/assets/hitalent.png" width="100%"></span>
+              <span class="m_msg"><p>Mar 2018 - May 2018<br><br>I used Bootstrap and Wordpress to build this blog site. You might suffer a bit of loading latency since I deployed the server in China based on the client's needs.<br><br><a href="http://hitalentedu.com" target="_blank" id="redir_link">Click to visit</a></p></span>
+          </span>
+
+          <span class="m_btn">EXPLORE MORE</span>
+        </span>
+
+        <span class="right">
+          <img src="/resources/assets/Laptop.png" width="70%" class="r_laptop"/>
+          <span class="r_box">
+              <span class="r_blackbox"></span>
+              <span class="r_imagebox"><img src="/resources/assets/chill.png" width="100%" height="100%"/></span>
+          </span>
+          <span class="content">
+              <span class="r_img"><img src="/resources/assets/chill.png" width="100%"/></span>
+              <span class="r_msg"><p>I created this site to practice Nodejs and AdonisJS. For now, the user authentication is completed, but the rest of the site are still static. You could use testing account to log in.<br><br>Email: admin123@123.com<br>Password: admin123<br><br><a href="http://hitalentedu.com" target="_blank" id="redir_link">Click to visit</a></p></span>
+          </span>
+
+          <span class="r_btn">EXPLORE MORE</div></span>
+        </span>
+
+      </span>
+      </section>
+    </div>
+
+    <script src="/resources/assets/js/jquery-1.10.2.min.js"></script>
+    <script src="/resources/assets/js/JQUERY%20Main.js"></script>
   </body>
 </html>
