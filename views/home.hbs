@@ -59,12 +59,14 @@
         numStars = 2000,
         mouse = {},
         starX_dir = 0,
-        starY_dir = 0;
+        starY_dir = 0,
+        smallCircleX = innerWidth/2,
+        smallCircleY = innerHeight/2;
 
         canvas.width = innerWidth;
         canvas.height = innerHeight;
 
-        var grd=c.createRadialGradient(960,450,1,960,450,1100);
+        var grd=c.createRadialGradient(smallCircleX,smallCircleY,1,smallCircleX,smallCircleY,1100);
         grd.addColorStop(0, "#158AB2");
         grd.addColorStop(0.2, "#1F2A77");
         grd.addColorStop(0.35, "#111742");
