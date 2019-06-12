@@ -204,8 +204,9 @@ body{
   font-size: 2rem;
   display: inline-block;
   list-style: none;
-  padding: 0 10px 0 10px;
-  width: 120px;
+  padding: 0 2rem 0 2rem;
+  text-align: center;
+  width: 10rem;
 
 }
 
@@ -214,7 +215,7 @@ body{
   text-align: center;
   color: white;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 .nav ul li a:hover{
@@ -233,7 +234,7 @@ section{
     position: relative;
     width: 100%;
     height: 27rem;
-    margin: 2rem;
+    margin: 2.5rem 0 0 0;
     overflow: hidden;
     border-radius: 10px;
     background: #000;
@@ -275,7 +276,7 @@ section{
 }
 
 .box .content h3{
-    font-size: 4rem;
+    font-size: 3rem;
     color: #fff;
     font-weight: 700;
 }
