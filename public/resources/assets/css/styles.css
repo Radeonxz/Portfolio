@@ -1,3 +1,6 @@
+/*==== FONTS ====*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
+
 /*==== HOME ====*/
 .home{
   overflow: hidden;
@@ -164,6 +167,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    font-family: 'Roboto Condensed', sans-serif !important;
 }
 
 .main{
